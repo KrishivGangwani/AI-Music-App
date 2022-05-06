@@ -57,7 +57,7 @@ function draw(){
     if(scoreLW > 0.2){
     circle(lwx, lwy, 20);
     song2.stop();
-    if(song_status == "false"){
+    if(song_status == false){
         song1.play();
         document.getElementById("song_name").innerHTML = "Heat Waves";
     }
@@ -68,7 +68,7 @@ function draw(){
         circle(rwx, rwy, 20);
         song1.stop();
 
-        if(sip == "false"){
+        if(sip == false){
             song2.play();
             document.getElementById("song_name").innerHTML = "Safe & Sound";
         }
